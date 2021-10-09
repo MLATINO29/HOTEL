@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HOTEL MALM</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/misFunciones.js"></script>
+
+</head>
+
+<body>
+  <!-- ROOM -->
+<h1> ROOM </h1>
+<div id="resultadoR"></div>
+<button onclick="traerInformacionR()"> Consultar Habitaciones </button>
+
+<div>
+    <input type="number" id="id" placeholder="Id">
+    <input type="text" id="room" placeholder="Room">
+    <input type="number" id="stars" placeholder="Stars">
+    <input type="number" id="category_id" placeholder="Category_id">
+    <input type="text" id="description" placeholder="Description">
+</div>
+
+<button onclick="guardarInformacionR()"> Crear Habitacion</button>
+<button onclick="editarInformacionR()">Actualizar Habitacion</button>
+
+<!-- CLIENT -->
+
+<h1> CLIENT </h1>
+<div id="resultadoC"></div>
+<button onclick="traerInformacionC()"> Consultar Clientes </button>
+
+<div>
+    <input type="number" id="idC" placeholder="Id">
+    <input type="text" id="name" placeholder="Name">
+    <input type="text" id="email" placeholder="Email">
+    <input type="number" id="age" placeholder="Age">
+
+</div>
+
+<button onclick="guardarInformacionC()">Crear Cliente</button>
+<button onclick="editarInformacionC()">Actualizar Cliente</button>
+
+<!-- MESSAGE -->
+
+<h1> MESSAGE </h1>
+<div id="resultadoM"></div>
+<button onclick="traerInformacionM()"> Consultar Mensajes </button>
+
+<div>
+    <input type="number" id="idM" placeholder="Id">
+    <input type="text" id="messagetext" placeholder="Message">
+
+
+</div>
+
+<button onclick="guardarInformacionM()">Crear Mensaje</button>
+<button onclick="editarInformacionM()">Actualizar Mensaje</button>
+
+</body>
+
+</html>
+
